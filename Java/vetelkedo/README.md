@@ -1,0 +1,1 @@
+﻿Az értékelés gombot nem tudtam még beállítani,a kérdés gombal lehet ellenőrizni is.  
