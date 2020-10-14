@@ -1,0 +1,52 @@
+body{
+background-color: orange;
+}
+
+#torzs{
+background-color: cornsilk;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+}
+
+h1{
+margin-top: 0;
+text-align: center;
+border-bottom: 6px double orange;
+font-size: 50px;
+}
+
+h2{
+border-top: 1px solid orange;
+border-bottom: 1px solid orange;
+padding-top: 5px;
+padding-bottom : 5px;
+margin-right: 50%;
+}
+
+footer{
+float: left;
+margin-left: 250px;
+}
+
+img{
+float: right;
+border: 2px solid orange;
+margin-left: 10px;
+width: 200px;
+}
+
+ul{
+margin-left: 80px;
+}
+
+p { 
+text-indent: 30px;
+text-align: justify;
+}
+
+li{
+text-align: justify;
+margin-bottom: 13px;
+}
