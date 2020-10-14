@@ -1,0 +1,52 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+min-width: 650px;
+max-width: 1000px;
+background-image: url(panorama.jpg);
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px;
+}
+
+#torzs{
+width: 1000px;
+margin: auto;
+}
+#bal,#jobb{
+    width: 450px;
+    background-color: #5b9cea;
+    padding: 10px;
+}
+#bal{
+float: left;
+}
+#jobb{
+float: right;
+}
+#header{
+
+}
+img{
+    width: 150px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+p{
+    font-weight: bold;
+}
+table{
+    margin: auto;  
+    background-color: #B0D1F1;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px black solid;
+  
+}
