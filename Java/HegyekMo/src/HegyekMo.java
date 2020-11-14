@@ -75,7 +75,7 @@ public class HegyekMo {
                 db7++;
             }
         }
-        System.out.println("7. feladat: 3000 lábnál magasabb hegycsúcsok száma: " + 29);
+        System.out.println("7. feladat: 3000 lábnál magasabb hegycsúcsok száma: " + db7);
 
         System.out.println("8. feladat: Hegység statisztika");
         HashMap<String, Integer> dictionary = new HashMap<>();
