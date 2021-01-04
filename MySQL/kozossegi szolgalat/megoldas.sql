@@ -8,7 +8,7 @@ SELECT nev
   ORDER BY nev ASC;
 
 3.
-SELECT SUM(maxletszam*hossz) as "óraszám" 
+SELECT SUM(maxletszam*hossz) as "Ã³raszÃ¡m" 
   FROM munka 
   WHERE maxletszam>0;
 
@@ -21,7 +21,7 @@ FROM diak
     WHERE diak.osztaly LIKE "%10%" AND jelentkezes.teljesitve=-1;
 
 5.
-SELECT diak.nev,COUNT(*) as "távolmaradás"
+SELECT diak.nev,COUNT(*) as "tÃ¡volmaradÃ¡s"
 FROM diak 
 	LEFT JOIN jelentkezes ON jelentkezes.diakid = diak.id
     WHERE jelentkezes.teljesitve=0 AND jelentkezes.elfogadva=-1
