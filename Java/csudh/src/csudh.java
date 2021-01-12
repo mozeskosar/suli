@@ -27,12 +27,11 @@ public class csudh {
         fileinput.close();
 
         System.out.println("3. feladat: Domainek száma: " + lista.size());
-        System.out.println("5. feladat: Az első domain felépítése");
-        System.out.println("1. szint: " + Domain(lista.get(0).domain, 1));
-        System.out.println("2. szint: " + Domain(lista.get(0).domain, 2));
-        System.out.println("3. szint: " + Domain(lista.get(0).domain, 3));
-        System.out.println("4. szint: " + Domain(lista.get(0).domain, 4));
-        System.out.println("5. szint: " + Domain(lista.get(0).domain, 5));
+        System.out.println("5. feladat: Az első domain felépítése:");
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println((i + 1) + ". szint: " + Domain(lista.get(0).domain,i+1));
+        }
 
         kiirat(); //5. feladat
     }
